@@ -4,7 +4,7 @@
 #             to python dictionary so:
 #             wherever you change text in edits (QLineEdit etc.),
 #             change value in spinboxes or check/uncheck buttons/checkboxes/radiobuttons
-#             their state is zmq_send to python dictionary with key looking
+#             their state is sent to python dictionary with key looking
 #             like "parent_widget.child_widget.widget_name"
 #
 # Created:      30.07.2016
@@ -116,3 +116,4 @@ if __name__ == "__main__":
     win.show()
     app.exec_()
     print(dic)
+
