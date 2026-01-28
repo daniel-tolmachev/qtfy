@@ -13,3 +13,5 @@ add a model for HDF files
 
 ### connect2dict     
 connects signals of Qt_widget and it's child widgets to python_dictionary using aux class so wherever you change text in edits (QLineEdit etc.), change value in spinboxes or check/uncheck buttons/checkboxes/radiobuttons their state is sent to python dictionary 
+
+_this is a spin off from my laboratory apps https://bitbucket.org/DanielTolmachev/lab_python_apps_
